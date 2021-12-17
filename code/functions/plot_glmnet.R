@@ -116,8 +116,8 @@ plot_glmnet = function(glmnet_fit, data, lambda = NULL, features_to_plot = NULL)
     trans <- function(x) -log(x, base)
     inv <- function(x) base^(-x)
     scales::trans_new(paste0("reverselog-", format(base)), trans, inv, 
-              scales::log_breaks(base = base), 
-              domain = c(1e-100, Inf))
+                      scales::log_breaks(base = base), 
+                      domain = c(1e-100, Inf))
   }
   
   # produce final plot
@@ -175,7 +175,7 @@ extract_std_coefs = function(glmnet_fit, data, lambda = NULL){
   }
   
   tibble(feature = features,
-        coefficient = beta_hat_std[,which.min(abs(glmnet_fit$lambda-lambda))])
+         coefficient = beta_hat_std[,which.min(abs(glmnet_fit$lambda-lambda))])
 }
 
 # Description: Plot CV as a function of alpha for cva.glmnet
