@@ -88,3 +88,5 @@ rmse = tibble(Method = c("Ordinary Least-Squares", "Ridge", "Lasso",
                                rf_train_RMSE),
        `Test RMSE` = c(linear_RMSE, ridge_RMSE, lasso_RMSE, dt_RMSE,
                        rf_RMSE))
+
+write_csv(x = rmse, file = "results/rmse.csv")
