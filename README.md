@@ -1,5 +1,4 @@
-# Unlocking the Secrets Behind Adult Dating
-#Yash Somaiya and Lynn Ahrens, STAT 471, 19 December 2021
+# Unlocking the Secrets Behind Adult Dating by Yash Somaiya and Lynn Ahrens, STAT 471, 19 December 2021
 
 In the modern dating world, combined with the rapid onset of technology, adults are now faced with both a plethora of decisions and a constant influx of information about potential matches. In this quest for love, with so many factors to consider, this can make an already daunting position more intimidating and overwhelming. In the following analyses, we seek to take data from over 8,000 speed dating pairings to form a predictive model for match rate based on selected human characteristics, preferences, goals, and reception to others. 
 
